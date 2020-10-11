@@ -97,7 +97,8 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 10rem;
+    border: 1px solid red;
+    padding: 5rem;
 }
 
 h2 {

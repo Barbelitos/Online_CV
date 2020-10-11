@@ -68,6 +68,15 @@ nav ul li a:hover {
     border-bottom: 1px solid white;
 }
 
+.title .license {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(66, 74, 192, 0.904);
+    padding: .2rem .5rem;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
 .title .contacts {
     text-align: left;
     margin-top: 2rem;
@@ -274,6 +283,10 @@ main span {
     .content {
         flex-direction: column;
         padding: 0 5rem;
+    }
+
+    .prof_title {
+        justify-content: space-evenly;
     }
 
     .driving_container {

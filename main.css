@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+.info {
+    margin: 0;
+    width: 15rem;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(114, 130, 173), rgb(234, 234, 236));
+}
+
+main {
+    border: 1px solid red;
+    margin: 0;
+    padding: 20px;
+}
+
+.my_picture {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 55%;
+    
+}
+
+.name {
+  margin-top: 40px;
+}
+
+.role {
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
